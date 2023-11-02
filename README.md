@@ -8,7 +8,7 @@ Thursday 11
 ## 使い方
 
 ```
-$ seq 10 | ./plus_stdin
+$ seq 10 | ./plus
 55
 
 ```
