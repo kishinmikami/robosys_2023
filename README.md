@@ -2,7 +2,7 @@
 [![test](https://github.com/kishinmikami/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kishinmikami/robosys2023/actions/workflows/test.yml)
 Thursday 11
 
-## このコマンドについて
+## プラスコマンドについて
 標準入力から読み込んだ数字の和を出力する.
 
 ## 使い方
