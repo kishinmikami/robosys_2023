@@ -26,4 +26,15 @@ $ seq 10 | ./plus
 *このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです.
 	*[ryuichiueda/my-slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
+## 平均コマンドについて
+標準入力から読み込んだ数字の平均を出力する.
+
+## 使い方
+
+```
+$ ./ave 1 2 3 4 5
+3.0
+
+```
+
 © 2023 Kishin Mikami
