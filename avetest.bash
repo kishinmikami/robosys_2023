@@ -1,0 +1,25 @@
+#!/bin/bash  -xv
+# SPDX-FileCopyrightText: 2023 Kishin Mikami blackgodstone.k@gmail.com
+# SPDX-License-Identifier: BSD-3-Clause
+
+ng () {
+	echo NG at Line $1
+	res=1
+}
+
+res=0
+
+###正の数字のみ###
+out=$(./ave 1 2 3 4 5)
+[ "${out}" = 3.0 ] || ng ${LINENO}
+
+###負の数も含む###
+out=$(./ave -2 -1 1 2)
+[ "${out}" = 0.0 ] || ng ${LINENO}
+
+###0も含む###
+out=$(./ave 0 1 2)
+[ "${out}" = 1.0 ] || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
+exit $res
