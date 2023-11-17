@@ -35,5 +35,10 @@ out=$(./dispersion 1 2 a 3 4)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+###アルファベット(大文字)を含む###
+out=$(./dispersion 1 2 H 3 4)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
