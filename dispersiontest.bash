@@ -45,5 +45,9 @@ out=$(./dispersion 1 2 ん 3 4)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+###カタカナを含む###
+out=$(./dispersion 1 2 ン 3 4)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}a
 [ "$res" = 0 ] && echo OK
 exit $res
