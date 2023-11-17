@@ -8,3 +8,10 @@ ng () {
 }
 
 res=0
+
+###正の数字のみ###
+out=$(./dispersion 1 2 3 4 )
+[ "${out}" = 1.25 ] || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
+exit $res
