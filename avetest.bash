@@ -40,5 +40,10 @@ out=$(./ave 1 2 あ 3 4)
 [ "$?" = 1 ] || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+###カタカナを含む###
+out=$(./ave 1 2 ケ 3 4)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
