@@ -29,5 +29,11 @@ out=$(./dispersion 0.5 1.5 2.5 )
 out=$(./dispersion 1  2.5  3 )
 [ "${out}" = 0.7222222222222222 ] || ng ${LINENO}
 
+
+###アルファベット(小文字)を含む###
+out=$(./dispersion 1 2 a 3 4)
+[ "$?" = 1 ] || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
