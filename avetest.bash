@@ -21,5 +21,9 @@ out=$(./ave -2 -1 1 2)
 out=$(./ave 0 1 2)
 [ "${out}" = 1.0 ] || ng ${LINENO}
 
+###0も含む###
+out=$(./ave 0.5 1.1 -2.5)
+[ "${out}" = -0.3 ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
