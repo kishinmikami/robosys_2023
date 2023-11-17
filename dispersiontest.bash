@@ -13,9 +13,13 @@ res=0
 out=$(./dispersion 1 2 3 4 )
 [ "${out}" = 1.25 ] || ng ${LINENO}
 
-###正の数字のみ###
+###小数を含む###
 out=$(./dispersion -1 3 )
 [ "${out}" = 4.0 ] || ng ${LINENO}
+
+###0を含む###
+out=$(./dispersion 0 1 2 3 )
+[ "${out}" = 1.25 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
