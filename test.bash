@@ -16,6 +16,9 @@ out=$(seq 5 | ./plus)
 out=$(seq 5.5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
+out=$(./plus < numms)
+[ "${out}" = -2.2 ] || ng ${LINENO}
+
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
 [ "$?" = 1 ] || ng ${LINENO}
