@@ -10,6 +10,9 @@ Thursday 11
 ```
 $ seq 10 | ./plus
 55
+
+$ ./plus < numms
+-2.2
 ```
 
 ## 必要なソフトウェア
