@@ -1,5 +1,5 @@
 # robosys2023
-[![test](https://github.com/kishinmikami/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kishinmikami/robosys2023/actions/workflows/test.yml)
+[![test](https://github.com/kishinmikami/robosys_2023/actions/workflows/test.yml/badge.svg)](https://github.com/kishinmikami/robosys_2023/actions/workflows/test.yml)
 
 
 ## プラスコマンドについて
