@@ -15,11 +15,6 @@ $ ./plus < numms
 -2.2
 ```
 
-## ライセンス関連
-
-* このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
-* このパッケージのコードは,下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです.
-	*[ryuichiueda/my-slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 ## 平均コマンドについて
 標準入力から読み込んだ数字の平均を出力する.
@@ -30,10 +25,6 @@ $ ./plus < numms
 $ ./ave 1 2 3 4 5
 3.0
 ```
-
-## ライセンス関連
-
-* このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
 
 ## 分散コマンドについて
 標準入力から読み込んだ数字の分散を出力する.
@@ -57,7 +48,12 @@ $ ./dispersion 1 2 3 4 5 6
 * Ubuntu 22.04.2 LTS
 
 ## ライセンス関連
+プラスコマンド
+* このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
+* このパッケージのコードは,下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです.
+        *[ryuichiueda/my-slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
+平均コマンド,分散コマンド
 * このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
 
 
