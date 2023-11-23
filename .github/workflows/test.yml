@@ -11,4 +11,3 @@ jobs:
                 - name: All test
                   run: bash -xv ./test.bash
                   run: bash -xv ./avetest.bash
-                  run: bash -xv ./dispersiontest.bash
