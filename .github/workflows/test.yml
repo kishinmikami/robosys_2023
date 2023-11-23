@@ -10,3 +10,5 @@ jobs:
                 - uses: actions/checkout@v3
                 - name: All test
                   run: bash -xv ./test.bash
+                  run: bash -xv ./avetest.bash
+                  run: bash -xv ./dispersiontest.bash
