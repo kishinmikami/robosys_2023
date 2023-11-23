@@ -36,6 +36,11 @@ $ ./dispersion 1 2 3 4 5 6
 2.9166666666666665
 ```
 
+##インストール方法
+githubがインストールされている環境で以下のコマンドを入力し、リポジトリを手元にコピーする.
+```
+$git clone git@github.com:kishinmikami/robosys_2023.git
+```
 ## 必要なソフトウェア
 * Python
   *テスト済:ver.3.7～3.10
