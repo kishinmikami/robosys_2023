@@ -45,6 +45,10 @@ $ git clone git@github.com:kishinmikami/robosys_2023.git
 ```
 $ cd robosys2023
 ```
+以下のコマンドを入力し, ファイルがあることを確認する.
+```
+$ ls
+```
 
 ## 必要なソフトウェア
 * Python
