@@ -43,11 +43,18 @@ $ git clone git@github.com:kishinmikami/robosys_2023.git
 ```
 コピーした後, 以下のコマンドを入力し, ディレクトリに移動する.
 ```
-$ cd robosys2023
+$ cd robosys_2023
 ```
 以下のコマンドを入力し, ファイルがあることを確認する.
 ```
 $ ls
+```
+実行方法は上記の使い方を参照してください. 
+実行権限がない場合は, 次のコマンドを入力して実行権限を付与してください. 
+```
+$ chmod +x plus
+$ chmod +x ave
+$ chmod +x dispersion
 ```
 
 ## 必要なソフトウェア
